@@ -18,16 +18,9 @@ Run the below command in root folder of the workspace
 ```bash
 catkin_make 
 ```
-Navigate to the src folder and create your package
+Navigate to the src folder and clone the repository
 ```bash
 cd src 
-```
-```bash
-catkin_create_pkg turtlebot_controller std_msgs roscpp rospy
-```
-Navigate to the package and inside the src folder, clone this repository
-```bash
-cd turtlebot_controller/src
 ```
 # Clone the repository
 ```bash
