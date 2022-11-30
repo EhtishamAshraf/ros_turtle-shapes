@@ -62,7 +62,8 @@ class Turtle:
         print("y = "+str(self.pose.y))        
         print("goal x = "+str(final_x))
         print("goal y = "+str(final_y))
-	
+		# This link provides details of the function: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/atan2
+		# math.atan2() is a bit different than math.atan()
         desired_hdg = math.atan2(final_y - self.pose.y, final_x - self.pose.x) # calculate the required angle	
         curr_hdg = self.pose.theta		# current angle of the robot
 	hdg_error = desired_hdg - curr_hdg	# calculate difference between current and required angle
