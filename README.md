@@ -44,7 +44,7 @@ Press Enter and write the command below to open turtlesim : (Assuming that turtl
 ```bash
 rosrun turtlesim turtlesim_node 
 ```
-Open a new shell windown and run the following the commands in sequence:
+Open a new shell windown, navigate to the root of the workspace and then run the following the commands in sequence:
 Command to build the package
 ```bash
 catkin_make
@@ -55,5 +55,5 @@ source devel/setup.bash
 ```
 Run the code:
 ```bash
-rosrun turtlebot_controller turtle_shapes.py
+rosrun ros_turtle-shapes turtle_shapes.py
 ```
