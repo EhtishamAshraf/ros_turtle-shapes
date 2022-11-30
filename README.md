@@ -29,7 +29,7 @@ Navigate to the package and inside the src folder, clone this repository
 ```bash
 cd turtlebot_controller/src
 ```
-# Download the Code
+# Clone the repository
 ```bash
 sudo apt-get update
 ```
@@ -37,7 +37,7 @@ sudo apt-get update
 sudo apt-get install git
 ```
 ```bash
-https://github.com/EhtishamAshraf/ros_turtle-shapes.git
+git clone https://github.com/EhtishamAshraf/ros_turtle-shapes.git
 ```
 Run the command below, to make the python file executable. Run the command in the src folder (where the python file is present)
 ```bash
