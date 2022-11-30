@@ -1,6 +1,6 @@
 # ROS Turtle Shapes
 
-This repository contains the code to draw shapes (i.e., square, rectangle, triangle, square) and reaching a specific goal with turtlesim.
+This repository contains the code to draw shapes (i.e., square, rectangle, triangle, square) and reaching a specific goal point with turtle.
 
 
 # Create Ros Workspace
@@ -25,8 +25,8 @@ cd src
 ```bash
 catkin_create_pkg turtlebot_controller std_msgs roscpp rospy
 ```
-```bash
 Navigate to the package and inside the src folder, clone this repository
+```bash
 cd turtlebot_controller/src
 ```
 # Download the Code
@@ -52,12 +52,15 @@ Press Enter and write the command below to open turtlesim : (Assuming that turtl
 rosrun turtlesim turtlesim_node 
 ```
 Open a new shell windown and run the following the commands in sequence:
+Command to build the package
 ```bash
 catkin_make
 ```
+Command to add environment variables needed by ROS
 ```bash
 source devel/setup.bash
 ```
+Run the code:
 ```bash
 rosrun turtlebot_controller turtle_shapes.py
 ```
