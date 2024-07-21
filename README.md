@@ -2,6 +2,22 @@
 
 This repository contains the code to draw shapes (i.e., square, rectangle, triangle, square) and reaching a specific goal point with turtle.
 
+## Below are the results
+### Creating a circle 
+![Circle](https://github.com/EhtishamAshraf/ros_turtle_shapes/blob/main/circle.png)
+
+### Creating a square 
+![Square](https://github.com/EhtishamAshraf/ros_turtle_shapes/blob/main/square_start.png)
+![Square](https://github.com/EhtishamAshraf/ros_turtle_shapes/blob/main/square.png)
+
+### Creating a rectangle 
+![Rectangle](https://github.com/EhtishamAshraf/ros_turtle_shapes/blob/main/rectangle.png)
+
+### Creating a triangle 
+![Triangle](https://github.com/EhtishamAshraf/ros_turtle_shapes/blob/main/triangle.png)
+
+### Moving towards goal 
+![Goal](https://github.com/EhtishamAshraf/ros_turtle_shapes/blob/main/goal.png)
 
 # Create Ros Workspace
 Open shell and execute the following commands:
